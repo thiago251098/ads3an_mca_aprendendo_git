@@ -12,8 +12,13 @@ def subtrair():
     subtracao = valorUm-valorDois
     print(subtracao)
 
+def dividir():
+    dividir = valorUm/valorDois
+    print(dividir)
+
 valorUm = int(input("Digite um numero"))
 valorDois = int(input("Digite outro numero"))
 soma()
 multiplicar()
 subtrair()
+dividir()
